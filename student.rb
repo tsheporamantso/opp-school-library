@@ -9,4 +9,4 @@ class Student < Person
   def play_hook
     '¯\(ツ)/¯'
   end
-end  
+end
