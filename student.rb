@@ -1,4 +1,5 @@
 require './person'
+require './classroom'
 
 class Student < Person
   def initialize(classroom, age, name: 'Unknown', parent_permission: true)
@@ -8,5 +9,9 @@ class Student < Person
 
   def play_hook
     '¯\(ツ)/¯'
+  end
+
+  def add_classroom(classroom)
+    classroom.student.push(self) unless classroom.student.include?(self)
   end
 end
