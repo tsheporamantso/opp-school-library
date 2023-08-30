@@ -36,6 +36,8 @@
 
 **OOP-School-Library** is an school library app designed with Ruby where you can add teachers, students, books and see books borrow records.
 
+![Alt text](image.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -53,6 +55,7 @@
 
 - **Add functionality**
 - **Record functionality**
+- **Associations between classes and objects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,8 +89,6 @@ Clone this repository to your desired folder:
   git clone git@github.com:tsheporamantso/opp-school-library.git
 ```
 
--
-
 ### Install
 
 Install this project with:
@@ -95,8 +96,6 @@ Install this project with:
 ```sh
   bundle install
 ```
-
--
 
 ### Usage
 
@@ -108,8 +107,6 @@ run the result on the terminal through:
   ruby student.rb
   ruby teacher.rb
 ```
-
--
 
 ### Run tests
 
@@ -137,12 +134,12 @@ Not deployed
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use the "Decorator" design pattern**
-- [ ] **Set up associations**
-- [ ] **Add basic UI**
-- [ ] **Refactor code**
-- [ ] **Preserve data**
-- [ ] **Unit test**
+- **Use the "Decorator" design pattern**
+- **Set up associations**
+- **Add basic UI**
+- **Refactor code**
+- **Preserve data**
+- **Unit test**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,11 +167,11 @@ If you like this project please give a star on [github](https://github.com/tshep
 
 I would like to thank:
 
-- [ ] **Microverse and all the staff**
-- [ ] **Microverse Communinity**
-- [ ] **Thanks to my coding Partners**
-- [ ] **Thanks to my Morning-Session-Group and Standup-Team Partners and**
-- [ ] **Thanks to Code Reviewers**
+- **Microverse and all the staff**
+- **Microverse Communinity**
+- **Thanks to my coding Partners**
+- **Thanks to my Morning-Session-Group and Standup-Team Partners and**
+- **Thanks to Code Reviewers**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
