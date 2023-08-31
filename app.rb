@@ -35,4 +35,17 @@ class App
       end
     end
   end
+
+  def person_create
+    puts 'Do you want to create a student (1) or a teacher (2)? [input the number]:'
+    type = gets.chomp
+    case type
+    when '1'
+      student_create
+    when '2'
+      teacher_create
+    else
+      puts 'Invalid selection'
+    end
+  end
 end
