@@ -48,4 +48,16 @@ class App
       puts 'Invalid selection'
     end
   end
+
+  def teacher_create
+    puts 'Age:'
+    age = gets.chomp
+    puts 'Name:'
+    name = gets.chomp
+    puts 'Specialization:'
+    specialization = gets.chomp
+    parent_permission = true
+    @people.push Teacher.new(age: age, name: name, specialization: specialization, parent_permission: parent_permission)
+    puts 'Person created successfully'
+  end
 end
