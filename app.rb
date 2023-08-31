@@ -84,4 +84,23 @@ class App
     @books.push(book)
     puts 'Book created successfully'
   end
+
+  def new_rental
+    puts 'select a book from the following list by number:'
+    book_list
+    bk_index = gets.chomp.to_i
+    rented_book = @books[bk_index]
+    puts 'select a person from the following list by number (not id)'
+    people_list
+    person_index = gets.chomp.to_i
+    renter = @people[person_index]
+    puts 'Date (YYYY-MM-DD):'
+    date = gets.chomp
+    if renter.can_use_services?
+      @rentals.push Rental.new(date, rented_book, renter)
+      puts 'Rental created successfully'
+    else
+      puts 'person lacks borrow permissions'
+    end
+  end
 end
