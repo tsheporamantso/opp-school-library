@@ -15,7 +15,7 @@ def main
       break
     end
 
-    options(option,app)
+    options(option, app)
   end
 end
 
